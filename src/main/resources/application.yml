@@ -12,7 +12,7 @@ spring:
         format_sql: true
 
 model:
-  path: "/Users/lim-yeonji/Desktop/study/private/practice/ai/src/main/resources/Video2Text.pt"
+  path: ${model-path}
 mp4:
-  path: "/Users/lim-yeonji/Desktop/study/private/practice/ai/src/main/resources/static.mp4"
+  path: ${mp4-path}
 
